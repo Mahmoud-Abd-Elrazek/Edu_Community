@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="">
+<title>Log In</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="../pageIcons/loginIcon.svg">
+</head>
+<body>
+  <div class="login-page">
+<!--================================ Start Form ====================================-->
+      <form class="login-form">
+          <h2>Sign in</h2>
+<!--================================ Start Input ===================================-->
+  <div class="input-box">
+      <label class="user-inpust" for="Username">USERNAME</label>
+      <input class="user-inpust" type="text" placeholder="Username" required id="Username" class="">
+  </div>
+
+  <div class="input-box">
+          <label for="password"> PASSWORD</label>
+          <input type="password" placeholder="Password" required id="password" >
+ </div> 
+        
+       
+<!--================================= End Input ======================================-->
+
+<!--================================ Start Radio =====================================-->
+      <div class="select_jop">
+          
+            <input type="radio" id="Student" value="Student" required name="chek">
+            <label for="Student" class="jobTitle">Student</label>
+
+            <input type="radio" id="Doctor" value="Doctor" required name="chek">
+            <label for="Doctor" class="jobTitle">Doctor</label>
+
+            <input type="radio" id="Doctor-Assistant" value="Doctor Assistant" required name="chek">
+            <label for="Doctor-Assistant" class="jobTitle">Doctor Assistant</label>
+      </div>
+<!--======================================= End Radio ======================================-->
+         
+<!--================================= Boutton and CheckBox =================================-->
+      
+<div class="login"> <button id="login">LOGIN</button> </div>  
+        
+        <div class="Remember">
+            
+            <input type="checkbox" id="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+        </div>
+        
+    </form>
+
+<!--======================================== End Form =========================================-->
+<script>
+
+// <!--========================================Start Array =========================================-->
+
+const Users=[
+  {
+     userID:'20221915',
+     userPassword:'mahmoud1fc',
+     joptitle:'Student',
+  }
+]
+
+// <!--========================================end Array =========================================-->
+
+
+document.querySelector('#login').addEventListener('click' ,  ev => {
+  ev.preventDefault() ; 
+  let inputValue = document.querySelector('#Username').value; 
+  let pass = document.querySelector('#password').value ; 
+
+  let find = 0 ; 
+  Users.forEach(i => {
+      if(i.userPassword === pass && i.userID === inputValue) {
+        find = 1 ; 
+      }
+  }) ; 
+  if(!find) {
+    showError() ; 
+  } else {
+    window.location.href = "../GradeAccount/index.html";
+  }
+
+  
+
+}) ;
+
+function showError() { 
+  document.querySelector('.login-form input[type="text"]').style.cssText = `
+    background: rgb(221 39 39 / 28%);
+    color: red;
+    ` ; 
+    document.querySelector('.login-form input[type="password"]').style.cssText = `
+    background: rgb(221 39 39 / 28%);
+    color: red;
+    ` ; 
+}
+
+</script>
+
+  </div>
+</body>                  
+</html>

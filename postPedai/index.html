@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostPedai Community</title>
+    <!-- Include Prism.js and a dark theme -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+    <!-- costum css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="../pageIcons/postPedaiIcon.svg">
+
+</head>
+<body class="light-mode">
+ <!-- ========================= Start Header Structre ========================= -->
+    <header>
+        <div class="nav-links">
+            <a href="" title="PostPedai Community"><i class="fa-solid fa-blog"></i></a>
+            <a href="../profileProject/index.html" title="My Account"> 
+                <i class="fa-regular fa-user"></i> 
+                <span>My account</span>
+            </a>
+            <a href="#" title="add post" class="add-post" > 
+                <i class="fa-solid fa-plus"></i> 
+                <span>Post Now</span>
+            </a>
+            <a href="../GradeAccount/index.html" title="My Account"> 
+                <i class="fa-regular fa-user"></i> 
+                <span>Grade</span>
+            </a>
+            <!-- <button href="" title="add post" class="add-post" id="btn-code" > 
+                <i class="fa-solid fa-code"></i>                
+                <span>Code Now</span>
+            </button> -->
+                    
+            <a href="">
+                <i class="fa-solid fa-bell"></i>
+                <span>Notification</span>
+            </a>
+            
+            <a href="#" title="Settings"> 
+                <i class="fa-solid fa-gear"></i> 
+                <span>Settings</span>
+            </a>
+
+            <button href="" id="dark-mode-icon">
+                <!-- <i class="fa-solid fa-moon"></i> -->
+                <i class="fa-regular fa-sun"></i>
+                <span>Light</span>
+            </button>
+
+            <a href="">
+                <i class="fa-solid fa-ellipsis"></i>
+                    <span>More</span>
+                </a>
+
+            <button type="button" class="tweet-btn btn" title="go to add your post">
+                Post Now
+            </button>
+        </div>
+      
+        <div class="main-account">
+            <a  class="">
+                <div class="img">
+                    <img src="images/obj1.jpg" alt="profile image" width="30px">
+                </div>
+                <div class="name">
+                    <h4>Mahmoud Abdelrazek</h4>
+                    <span>Student</span>
+                </div>
+            </a>
+    
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+    </header>
+ <!-- ========================= Start Header Structre ========================= -->
+ 
+ <!-- ========================= Start Main Structre ========================= -->
+    <main>
+        <div class="main-flex">
+            <div class="main-feed">
+
+                <div class="home-bar">
+                   <span>Home in <span style="color: rgb(29,155, 240);font-weight: bold;">PostPedai Community</span> </span>
+                    <a href="#" class="post-icon" title="PostPedai Community"><i class="fa-solid fa-blog icon"></i></a>
+                </div>
+    
+                <div class="new-tweet">
+                   <div class="img">
+                      <img src="images/obj1.jpg" alt="">
+                   </div>
+                   <div class="new-tweet-details">
+                      <input type="text" class="post-content" placeholder="Share your Info in PostPedi commuinty?">
+                      <div class="new-tweet-actions">   
+                        <div>
+                            <button title="add post" class="post-icon">
+                                <i class="fa-regular fa-image"></i>
+                            </button>
+                            <button title="add post with code" class="code-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </button>
+                        </div>
+                         <button class="tweet-btn add-post-btn">
+                            post
+                         </button>
+                      </div>
+
+                      <div class="upload-img-text">
+                        <div class="btns">
+                            <button id="addImageButton" title="add image">
+                                <i class="fa-regular fa-file-image"></i>
+                            </button>
+                            <button class="close" title="close">
+                                <i class="fa-regular fa-circle-xmark"></i>                        
+                            </button>
+                        </div>
+                        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                        <input type="text" id="descriptionInput" placeholder="Enter description" autofocus aria-autocomplete="none">
+                      </div>
+
+                   </div>
+                </div>
+                
+                <div class="posts blur">
+
+                     <div class="feed-tweet">
+                        <div class="img">
+                          <img src="images/user-2.png">
+                        </div>
+         
+                        <div class="feed-tweeter-details">
+                           <div class="tweeter-details">
+                              <a href="" class="tweeter-name">Mahmoud Abdelrazek
+                                 <span class="tweeter-handel">@7hod_.h</span>
+                                 <small class="date">18 may 2024</small>
+                                 <small class="job-title">student</small>
+                              </a>
+                              <a href="" class="post-icon">
+                                 <i class="fa-solid fa-ellipsis"></i>
+                              </a>
+                           </div>
+         
+                           <!-- start post content -->
+                           <div class="tweeter-text" dir="rtl">
+                            <p>السلام عليكم .. 
+                              انهارده انشاء الله هشارك معاكم 
+                              Linked list 
+                              طيب اول سوال هو يعني اصلا list ؟ 😁
+                              </p>
+                          </div>
+
+                          <div class="main">
+
+                            <div class="code-file">
+                              <p class="code-discription">
+                                The blew code how to print the array items in reversed order 
+                              </p>
+                      
+                              <div class="code-header">
+                                <span class="code-language">C++</span>
+                                <button class="copy-btn btn" title="copiy">Copy</button>
+                              </div>
+                      
+                              <pre>
+                                <code class="language-javascript">
+                                  #include"iostream"
+                                  using namespace std ; 
+                                  int main() { 
+                                    int N ;  // array saize
+                                    cin >> N ; 
+                                    int ar[N] = {} ; 
+                                    // Read array items 
+                                    for(int i = 0 ; i < N ; ++i){
+                                      cin >> ar[i] ; 
+                                    }
+                                    // print array items in revered way  
+                                    for(int i = N - 1 ; i >= 0 ; --i){
+                                      cout << ar[i] << ' ' ; 
+                                    } cout << '\n' ; 
+                                  }
+                                </code>
+                              </pre>
+                      
+                              <div class="themes-container">
+                                <div class="themes">
+                                  <button class ="active-click dark-btn-theme"></button>
+                                  <button class ="light-btn-theme"></button>
+                                  <button class ="custom-btn-theme"></button>
+                                  <button class ="black-btn-theme"></button>
+                                </div>
+                              </div>
+                            </div>      
+                      
+                            <div class="code-file">
+                              <p class="code-discription">
+                                this to print the max number in the givern array
+                                this to print the max number in the givern array
+                                this to print the max number in the givern array
+                                this to print the max number in the givern array
+                                this to print the max number in the givern array
+                              </p>
+                      
+                              <div class="code-header">
+                                <span class="code-language">C++</span>
+                                <button class="copy-btn btn" title="copiy">Copy</button>
+                              </div>
+                      
+                              <pre>
+                                <code class="language-javascript">
+                                  // لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ وَمَا تُنْفِقُوا مِنْ شَيْءٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ [آل عمران:92].
+                       
+                                  // © M_Abrazeg
+                                   
+                                  #include '<'bits/stdc++.h'>'
+                                   
+                                  using namespace std;
+                                  using i64 = long long ;
+                                   
+                                  #define all(x) (x).begin(), (x).end()
+                                  #define rall(a) a.rbegin(), a.rend()
+                                   
+                                  const int OO = 0x3f3f3f3f , Mod = 1e9+7 ; 
+                                  void io() {
+                                  #ifndef ONLINE_JUDGE
+                                     freopen("input.txt", "r", stdin);
+                                     freopen("output.txt", "w", stdout);
+                                  #endif
+                                  }
+                                  template<class T>
+                                  istream& operator>>(istream&in , pair<T,T>&p) {
+                                     return in >> p.first >> p.second;
+                                  }
+                                  template<class T>
+                                  ostream& operator<<(ostream&out,vector<T>&v) {
+                                     for(int i=0;i<v.size();i++){
+                                        out << v[i] << " \n"[i == v.size() - 1 ] ;
+                                     }out << '\n';
+                                     return out ;
+                                  }
+                                  template<class T>
+                                  istream& operator>>(istream&in,vector<T>&v) {
+                                     for(int i=0;i<v.size();i++){in >> v[i] ;}
+                                     return in ;
+                                  }
+                                   
+                                  i64 ncr(i64 n, i64 m) {
+                                     if (m == 0)return 1;
+                                     return n * ncr(n - 1, m - 1) / m;
+                                  }
+                                  void MarketCost (vector<i64>&market , const int& K) {
+                                      int n = market.size();
+                                      for(int j = 0 ; j < n ; ++j)
+                                          market[j] += (j+1) * K ;
+                                  }
+                                  bool CanIbuyK (vector<i64>marekt , const& K , int budget) { 
+                                   
+                                     MarketCost(marekt , K) ;
+                                     sort(all(marekt)) ; 
+                                   
+                                     int CNT = 0 , n = marekt.size() ; 
+                                     for(int i = 0 ; i < n ; ++i) {
+                                        if( budget >= marekt[i]) {
+                                           budget -= marekt[i] ; 
+                                           ++CNT ; 
+                                        }else break; 
+                                     }
+                                   
+                                     return CNT >= K ; 
+                                  }
+                                  void burn () { 
+                                     int items , budget ; 
+                                     cin >> items >> budget ;
+                                   
+                                     vector<i64>market(items);
+                                     for(int i = 0 ; i < items ; ++i)
+                                        cin >> market[i] ;
+                                   
+                                     // generate K numbers and choose the maximum one 
+                                     int low = 0 , high = items , ans = 0 ; 
+                                     while(low <= high) {
+                                        int K = low + (high - low) / 2 ; 
+                                   
+                                        if (CanIbuyK( market , K , budget) ) { 
+                                           ans = K ;
+                                           low = K + 1 ; 
+                                        } else 
+                                           high = K - 1 ;
+                                     }
+                                   
+                                     MarketCost(market,ans) ; 
+                                     sort(all(market)) ;
+                                     int mnCost = 0 ;  
+                                     for(int i = 0 ; i < ans ; ++i)
+                                        mnCost += market[i] ; 
+                                   
+                                     cout << ans << ' ' << mnCost << '\n' ; 
+                                  }
+                                  int main() {
+                                     ios::sync_with_stdio(0);cin.tie(0);
+                                   
+                                     int tt = 1; 
+                                     // cin >> tt ;
+                                     while(tt--) 
+                                        burn() ;  
+                                  }
+                                </code>
+                              </pre>
+                      
+                              <div class="themes-container">
+                                <div class="themes">
+                                  <button class ="active-click dark-btn-theme"></button>
+                                  <button class ="light-btn-theme"></button>
+                                  <button class ="custom-btn-theme"></button>
+                                  <button class ="black-btn-theme"></button>
+                                </div>
+                              </div>
+                            </div>        
+                          </div>
+
+                           <!-- end post content -->
+                           <div class="tweet-icons" >
+                              <button class="post-icon comment-icon" title="add comment">
+                                 <i class="fa-solid fa-message"></i>
+                                 <span>7</span>
+                              </button>
+                              <a href=""class="post-icon" title="share">
+                                 <i class="fa-solid fa-retweet"></i>   
+                              </a>
+                              <a href=""class="post-icon" title="love">
+                                 <i class="fa-solid fa-heart"></i>
+                              </a>
+         
+                           </div>
+
+                        </div>
+
+                        <div class="posts-comments">
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mahmoud Abdelrazek</span>
+                                    <small>@7hod_.h</small>
+                                    <small>18 may 2024</small>
+                                    <small class="job-title">student</small>
+                                </div>
+                                <p> Wow😁 this a greet work 👌😍. </p>
+                                <div class="comment-footer">
+                                    <small class="response-btn">
+                                        <i class="fa-solid fa-reply"></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-down"></i></i>
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mohamed Refaat</span>
+                                    <small>mo_r3faat</small>
+                                </div>
+                                <p> Nice , this is a greet work </p>
+                            </div>
+
+                            <div class="commentIntput" title="comment this">
+                                <input type="text" placeholder="comment here">
+                               <button class="comment-now">
+                                  <i class=" fa-solid fa-circle-arrow-up"></i>
+                               </button>
+                          </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="feed-tweet">
+                        <div class="img">
+                          <img src="images/ahmedAli.jpeg">
+                        </div>
+         
+                        <div class="feed-tweeter-details">
+                           <div class="tweeter-details">
+                              <a href="" class="tweeter-name">Ahmed Ali
+                                 <span class="tweeter-handel">@a7med_.h</span>
+                                 <small class="date">18 may 2024</small>
+                                 <small class="job-title">student</small>
+                              </a>
+                              <a href="" class="post-icon">
+                                 <i class="fa-solid fa-ellipsis"></i>
+                              </a>
+                           </div>
+         
+                           <!-- start post content -->
+                           <div class="tweeter-text" dir="rtl">
+                            <p>دايما بنسأل نفسنا ازاى نظام البصمة بتاعت الوش بتشتغل أو ازاى الكاميرات بتعمل detection للصور فاحنا نقدر نعمل الكلام ده كله ببايثون  
+                                فيما يلي شرح لما يقوم به الكود:
+                               
+                               1. استيراد المكتبات اللازمة: cv2 (OpenCV) و matplotlib.pyplot (لعرض الصور).
+                               
+                               2. تحميل نموذج اكتشاف الأشياء المدرب مسبقًا:
+                                  - إنشاء كائن cv2.dnn_DetectionModel وتعيين حجم الإدخال والمقياس والوسط والترتيب القناة للون.
+                               3. تحميل وعرض صورة:
+                               
+                               4. تنفيذ اكتشاف الأشياء على الصورة:
+                                  - استخدام وظيفة model.detect() لاكتشاف الأشياء في الصورة.
+                                  - رسم مستطيلات تحول الأشياء المكتشفة وكتابة ملصقات الفئات عليها.
+                                  - عرض الصورة المعدلة باستخدام plt.imshow().
+                               
+                               5. تشغيل الكاميرا وتنفيذ اكتشاف الأشياء في الوقت الفعلي:
+                                  - فتح الكاميرا باستخدام cv2.VideoCapture().</p>
+                          </div>
+
+                          <div class="main">
+
+                            <div class="code-file">
+                              <p class="code-discription" dir="rtl"></p>
+                      
+                              <div class="code-header">
+                                <span class="code-language">python</span>
+                                <button class="copy-btn btn" title="copiy">Copy</button>
+                              </div>
+                      
+                              <pre>
+                                <code class="language-javascript">
+                                    import cv2
+                                    import matplotlib.pyplot as plt
+                                    
+                                    
+                                    config_file = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
+                                    frozen_model = 'frozen_inference_graph.pb'
+                                    model = cv2.dnn_DetectionModel(frozen_model, config_file)
+                                    classLabels = []
+                                    file_name = 'Labels.txt'
+                                    with open(file_name,'rt') as fpt:
+                                        classLabels = fpt.read().rstrip('\n').split('\n')
+                                    model.setInputSize(320,320)
+                                    model.setInputScale(1.0/127.5)
+                                    model.setInputMean((127.5,127.5,127.5))
+                                    model.setInputSwapRB(True)    
+                                    img = cv2.imread('WhatsApp Image 2022-11-04 at 01.50.06...jpg')
+                                    plt.imshow(img) 
+                                    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+                                    ClassIndex, confidece, bbox = model.detect(img,confThreshold=0.5)
+                                    font_scale = 3
+                                    font = cv2.FONT_HERSHEY_PLAIN
+                                    for ClassInd, conf, boxes in zip(ClassIndex.flatten(), confidece.flatten(), bbox):
+                                        cv2.rectangle(img, boxes, (255, 0, 0), 2)
+                                        cv2.putText(img, classLabels[ClassInd-1], (boxes[0]+10, boxes[1]+40), font, fontScale=font_scale, color=(0, 255, 0), thickness=3 )
+                                    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+                                    cap = cv2.VideoCapture(1)
+                                    if not cap.isOpened():
+                                        cap = cv2.VideoCapture(0)
+                                    if not cap.isOpened():
+                                        raise IOError("can't open camera")
+                                    font_scale = 3
+                                    font = cv2.FONT_HERSHEY_PLAIN
+                                    while True:
+                                        ret, frame = cap.read()
+                                        ClassIndex, confidece, bbox = model.detect(frame, confThreshold=0.55)
+                                        print(ClassIndex)
+                                        if (len(ClassIndex)!=0):
+                                            for ClassInd, conf, boxes in zip(ClassIndex.flatten(), confidece.flatten(), bbox):
+                                                if (ClassInd<=80):
+                                                    cv2.rectangle(frame, boxes, (255, 0, 0), 2 )
+                                                    cv2.putText(frame, classLabels[ClassInd-1], (boxes[0]+10, boxes[1]+40), font, fontScale=font_scale, color=(0, 255, 0), thickness=3 )
+                                        cv2.imshow('object detection tutorial', frame)
+                                        if cv2.waitKey(2) & 0xFF == ord('q'):
+                                            break
+                                    cap.release()
+                                    cv2.destroyAllWindows()
+                                </code>
+                              </pre>
+                      
+                              <div class="themes-container">
+                                <div class="themes">
+                                  <button class ="active-click dark-btn-theme"></button>
+                                  <button class ="light-btn-theme"></button>
+                                  <button class ="custom-btn-theme"></button>
+                                  <button class ="black-btn-theme"></button>
+                                </div>
+                              </div>
+                            </div>      
+                             
+                          </div>
+
+                           <!-- end post content -->
+                           <div class="tweet-icons" >
+                              <button class="post-icon comment-icon" title="add comment">
+                                 <i class="fa-solid fa-message"></i>
+                                 <span>7</span>
+                              </button>
+                              <a href=""class="post-icon" title="share">
+                                 <i class="fa-solid fa-retweet"></i>   
+                              </a>
+                              <a href=""class="post-icon" title="love">
+                                 <i class="fa-solid fa-heart"></i>
+                              </a>
+         
+                           </div>
+                        </div>
+
+                        <div class="posts-comments">
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mahmoud Abdelrazek</span>
+                                    <small>@7hod_.h</small>
+                                    <small>18 may 2024</small>
+                                    <small class="job-title">student</small>
+                                </div>
+                                <p> Wow😁 this a greet work 👌😍. </p>
+                                <div class="comment-footer">
+                                    <small class="response-btn">
+                                        <i class="fa-solid fa-reply"></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-down"></i></i>
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mohamed Refaat</span>
+                                    <small>mo_r3faat</small>
+                                </div>
+                                <p> Nice , this is a greet work </p>
+                            </div>
+
+                            <div class="commentIntput" title="comment this">
+                                <input type="text" placeholder="comment here">
+                               <button class="comment-now">
+                                  <i class=" fa-solid fa-circle-arrow-up"></i>
+                               </button>
+                          </div>
+
+                        </div>
+                     </div>
+                </div>   
+            </div>
+        </div>
+
+        <div class="side-feed showScroll">
+            <div class="search">
+                <div>
+                    <input type="text" placeholder="PostPedai Search">
+                    <button title="search">search</button>
+                </div>
+             </div>
+
+             <!-- هنا في مدعكه عايزه تتهندل -->
+
+            <div class="searching-container">
+                <div class="search-title">Search by 
+                    <span style="color:rgb(29,155, 240);">tags</span>
+                </div>
+                <div class="tags">
+                    <button class="tag">#Learning</button>
+                    <button class="tag">#Lecturs</button>
+                    <button class="tag">#Funny</button>
+                    <button class="tag">#Data_Structure</button>
+                    <button class="tag">#OOP</button>
+                    <button class="tag">#Pobular</button>
+                    <button class="tag">#Linked_List</button>
+                    <button class="tag">#Problem_Solving</button>
+                    <button class="tag">#lost_things</button>
+                    <button class="tag">#DB</button>
+                    <button class="tag">#Web</button>
+                </div>
+                <!-- <h2 class="search-title">PostPedia Results.</h2> -->
+                <div class="result-item">
+                    <!-- addPosts here -->
+                    <!-- <div class="feed-tweet">
+
+                     </div> -->
+
+                </div>
+                <h2 class="search-title" style="border-top: 1px solid rgb(47, 51, 54);">Latest Posts.</h2>
+                <div class="lates-ptosts">
+
+                    <div class="feed-tweet">
+                        <div class="img">
+                          <img src="images/user6.jpg">
+                        </div>
+         
+                        <div class="feed-tweeter-details">
+                           <div class="tweeter-details">
+                              <a href="" class="tweeter-name">Ahmed Gamal  
+                                 <span class="tweeter-handel">@jimmy_</span>
+                                 <small class="date">30 may 2024</small>
+                                 <small class="job-title">student</small>
+                              </a>
+                              <a href="" class="post-icon">
+                                 <i class="fa-solid fa-ellipsis"></i>
+                              </a>
+                           </div>
+         
+                           <!-- start post content -->
+                           <div class="tweeter-text" dir="rtl">
+                            <p>ازيكم ي شباب .. انشاء الله انهارده هشارك معاكم يعني ايه Binary Search واهم التطبيقات كمان ..</p>
+                          </div>
+                          <div class="tweeter-img">
+                            <!-- <img src="images/post3.jpg"> -->
+                        </div>
+                           <!-- end post content -->
+                           <div class="tweet-icons" >
+                              <button class="post-icon comment-icon" title="add comment">
+                                 <i class="fa-solid fa-message"></i>
+                                 <span>2</span>
+                              </button>
+                              <a href=""class="post-icon" title="share">
+                                 <i class="fa-solid fa-retweet"></i>   
+                              </a>
+                              <a href=""class="post-icon" title="love">
+                                 <i class="fa-solid fa-heart"></i>
+                              </a>
+         
+                           </div>
+
+                        </div>
+
+                        <div class="posts-comments">
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mahmoud Abdelrazek</span>
+                                    <small>@7hod_.h</small>
+                                    <small>18 may 2024</small>
+                                    <small class="job-title">student</small>
+                                </div>
+                                <p> Wow😁 this a greet work 👌😍. </p>
+                                <div class="comment-footer">
+                                    <small class="response-btn">
+                                        <i class="fa-solid fa-reply"></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-down"></i></i>
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mohamed Refaat</span>
+                                    <small>mo_r3faat</small>
+                                </div>
+                                <p> Nice , this is a greet work </p>
+                            </div>
+
+                            <div class="commentIntput" title="comment this">
+                                <input type="text" placeholder="comment here">
+                               <button class="comment-now">
+                                  <i class=" fa-solid fa-circle-arrow-up"></i>
+                               </button>
+                          </div>
+
+                        </div>
+
+                     </div>
+
+                    <div class="feed-tweet">
+                        <div class="img">
+                          <img src="images/user5.jpg">
+                        </div>
+         
+                        <div class="feed-tweeter-details">
+                           <div class="tweeter-details">
+                              <a href="" class="tweeter-name">Mohammed Refaat 
+                                 <span class="tweeter-handel">@r3fat_</span>
+                                 <small class="date">30 may 2024</small>
+                                 <small class="job-title">student</small>
+                              </a>
+                              <a href="" class="post-icon">
+                                 <i class="fa-solid fa-ellipsis"></i>
+                              </a>
+                           </div>
+         
+                           <!-- start post content -->
+                           <div class="tweeter-text" dir="rtl">
+                            <p></p>
+                          </div>
+                          <div class="tweeter-img">
+                            <img src="images/post3.jpg">
+                        </div>
+                           <!-- end post content -->
+                           <div class="tweet-icons" >
+                              <button class="post-icon comment-icon" title="add comment">
+                                 <i class="fa-solid fa-message"></i>
+                                 <span>7</span>
+                              </button>
+                              <a href=""class="post-icon" title="share">
+                                 <i class="fa-solid fa-retweet"></i>   
+                              </a>
+                              <a href=""class="post-icon" title="love">
+                                 <i class="fa-solid fa-heart"></i>
+                              </a>
+         
+                           </div>
+
+                        </div>
+
+                        <div class="posts-comments">
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mahmoud Abdelrazek</span>
+                                    <small>@7hod_.h</small>
+                                    <small>18 may 2024</small>
+                                    <small class="job-title">student</small>
+                                </div>
+                                <p> Wow😁 this a greet work 👌😍. </p>
+                                <div class="comment-footer">
+                                    <small class="response-btn">
+                                        <i class="fa-solid fa-reply"></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-down"></i></i>
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mohamed Refaat</span>
+                                    <small>mo_r3faat</small>
+                                </div>
+                                <p> Nice , this is a greet work </p>
+                            </div>
+
+                            <div class="commentIntput" title="comment this">
+                                <input type="text" placeholder="comment here">
+                               <button class="comment-now">
+                                  <i class=" fa-solid fa-circle-arrow-up"></i>
+                               </button>
+                          </div>
+
+                        </div>
+
+                     </div>
+
+                     <div class="feed-tweet">
+                        <div class="img">
+                          <img src="images/abdo-profile-2.jpg">
+                        </div>
+                
+                        <div class="feed-tweeter-details">
+                           <div class="tweeter-details">
+                              <a href="" class="tweeter-name">Abdelatty Badwy
+                                 <span class="tweeter-handel">@glich_</span>
+                                 <small class="date">18 may 2024</small>
+                                 <small class="job-title">student</small>
+                              </a>
+                              <a href="" class="post-icon">
+                                 <i class="fa-solid fa-ellipsis"></i>
+                              </a>
+                           </div>
+         
+                           <!-- start post content -->
+                           <div class="tweeter-text" dir="rtl">
+                            <p></p>
+                          </div>
+                          <div class="tweeter-img">
+                            <img src="images/solid-2.jpg">
+                        </div>
+                           <!-- end post content -->
+                           <div class="tweet-icons" >
+                              <button class="post-icon comment-icon" title="add comment">
+                                 <i class="fa-solid fa-message"></i>
+                                 <span>7</span>
+                              </button>
+                              <a href=""class="post-icon" title="share">
+                                 <i class="fa-solid fa-retweet"></i>   
+                              </a>
+                              <a href=""class="post-icon" title="love">
+                                 <i class="fa-solid fa-heart"></i>
+                              </a>
+         
+                           </div>
+
+                        </div>
+
+                        <div class="posts-comments">
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mahmoud Abdelrazek</span>
+                                    <small>@7hod_.h</small>
+                                    <small>18 may 2024</small>
+                                    <small class="job-title">student</small>
+                                </div>
+                                <p> Wow😁 this a greet work 👌😍. </p>
+                                <div class="comment-footer">
+                                    <small class="response-btn">
+                                        <i class="fa-solid fa-reply"></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i></i>
+                                    </small>
+                                    <small class="response-btn">
+                                        <i class="fa-regular fa-thumbs-down"></i></i>
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="comment-header">
+                                    <img src="images/obj2.jpg" width="30px" alt="">
+                                    <span>Mohamed Refaat</span>
+                                    <small>mo_r3faat</small>
+                                </div>
+                                <p> Nice , this is a greet work </p>
+                            </div>
+
+                            <div class="commentIntput" title="comment this">
+                                <input type="text" placeholder="comment here">
+                               <button class="comment-now">
+                                  <i class=" fa-solid fa-circle-arrow-up"></i>
+                               </button>
+                          </div>
+
+                        </div>
+
+                     </div>
+                     
+                        <button class="tweet-btn see-more">see more</button>
+                        <div class="more">
+
+                        <div class="feed-tweet">
+                            <div class="img">
+                              <img src="images/user6.jpg">
+                            </div>
+             
+                            <div class="feed-tweeter-details">
+                               <div class="tweeter-details">
+                                  <a href="" class="tweeter-name">Ahmed Gamal  
+                                     <span class="tweeter-handel">@jimmy_</span>
+                                     <small class="date">30 may 2024</small>
+                                     <small class="job-title">student</small>
+                                  </a>
+                                  <a href="" class="post-icon">
+                                     <i class="fa-solid fa-ellipsis"></i>
+                                  </a>
+                               </div>
+             
+                               <!-- start post content -->
+                               <div class="tweeter-text" dir="rtl">
+                                <p>ازيكم ي شباب .. انشاء الله انهارده هشارك معاكم يعني ايه Binary Search واهم التطبيقات كمان ..</p>
+                              </div>
+                              <div class="tweeter-img">
+                                <!-- <img src="images/post3.jpg"> -->
+                            </div>
+                               <!-- end post content -->
+                               <div class="tweet-icons" >
+                                  <button class="post-icon comment-icon" title="add comment">
+                                     <i class="fa-solid fa-message"></i>
+                                     <span>2</span>
+                                  </button>
+                                  <a href=""class="post-icon" title="share">
+                                     <i class="fa-solid fa-retweet"></i>   
+                                  </a>
+                                  <a href=""class="post-icon" title="love">
+                                     <i class="fa-solid fa-heart"></i>
+                                  </a>
+             
+                               </div>
+    
+                            </div>
+    
+                            <div class="posts-comments">
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mahmoud Abdelrazek</span>
+                                        <small>@7hod_.h</small>
+                                        <small>18 may 2024</small>
+                                        <small class="job-title">student</small>
+                                    </div>
+                                    <p> Wow😁 this a greet work 👌😍. </p>
+                                    <div class="comment-footer">
+                                        <small class="response-btn">
+                                            <i class="fa-solid fa-reply"></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-up"></i></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-down"></i></i>
+                                        </small>
+                                    </div>
+                                </div>
+    
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mohamed Refaat</span>
+                                        <small>mo_r3faat</small>
+                                    </div>
+                                    <p> Nice , this is a greet work </p>
+                                </div>
+    
+                                <div class="commentIntput" title="comment this">
+                                    <input type="text" placeholder="comment here">
+                                   <button class="comment-now">
+                                      <i class=" fa-solid fa-circle-arrow-up"></i>
+                                   </button>
+                              </div>
+    
+                            </div>
+    
+                         </div>
+
+                         <div class="feed-tweet">
+                            <div class="img">
+                              <img src="images/user6.jpg">
+                            </div>
+             
+                            <div class="feed-tweeter-details">
+                               <div class="tweeter-details">
+                                  <a href="" class="tweeter-name">Ahmed Gamal  
+                                     <span class="tweeter-handel">@jimmy_</span>
+                                     <small class="date">30 may 2024</small>
+                                     <small class="job-title">student</small>
+                                  </a>
+                                  <a href="" class="post-icon">
+                                     <i class="fa-solid fa-ellipsis"></i>
+                                  </a>
+                               </div>
+             
+                               <!-- start post content -->
+                               <div class="tweeter-text" dir="rtl">
+                                <p>ازيكم ي شباب .. انشاء الله انهارده هشارك معاكم يعني ايه Binary Search واهم التطبيقات كمان ..</p>
+                              </div>
+                              <div class="tweeter-img">
+                                <!-- <img src="images/post3.jpg"> -->
+                            </div>
+                               <!-- end post content -->
+                               <div class="tweet-icons" >
+                                  <button class="post-icon comment-icon" title="add comment">
+                                     <i class="fa-solid fa-message"></i>
+                                     <span>2</span>
+                                  </button>
+                                  <a href=""class="post-icon" title="share">
+                                     <i class="fa-solid fa-retweet"></i>   
+                                  </a>
+                                  <a href=""class="post-icon" title="love">
+                                     <i class="fa-solid fa-heart"></i>
+                                  </a>
+             
+                               </div>
+    
+                            </div>
+    
+                            <div class="posts-comments">
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mahmoud Abdelrazek</span>
+                                        <small>@7hod_.h</small>
+                                        <small>18 may 2024</small>
+                                        <small class="job-title">student</small>
+                                    </div>
+                                    <p> Wow😁 this a greet work 👌😍. </p>
+                                    <div class="comment-footer">
+                                        <small class="response-btn">
+                                            <i class="fa-solid fa-reply"></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-up"></i></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-down"></i></i>
+                                        </small>
+                                    </div>
+                                </div>
+    
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mohamed Refaat</span>
+                                        <small>mo_r3faat</small>
+                                    </div>
+                                    <p> Nice , this is a greet work </p>
+                                </div>
+    
+                                <div class="commentIntput" title="comment this">
+                                    <input type="text" placeholder="comment here">
+                                   <button class="comment-now">
+                                      <i class=" fa-solid fa-circle-arrow-up"></i>
+                                   </button>
+                              </div>
+    
+                            </div>
+    
+                         </div>
+
+                         <div class="feed-tweet">
+                            <div class="img">
+                              <img src="images/user6.jpg">
+                            </div>
+             
+                            <div class="feed-tweeter-details">
+                               <div class="tweeter-details">
+                                  <a href="" class="tweeter-name">Ahmed Gamal  
+                                     <span class="tweeter-handel">@jimmy_</span>
+                                     <small class="date">30 may 2024</small>
+                                     <small class="job-title">student</small>
+                                  </a>
+                                  <a href="" class="post-icon">
+                                     <i class="fa-solid fa-ellipsis"></i>
+                                  </a>
+                               </div>
+             
+                               <!-- start post content -->
+                               <div class="tweeter-text" dir="rtl">
+                                <p>ازيكم ي شباب .. انشاء الله انهارده هشارك معاكم يعني ايه Binary Search واهم التطبيقات كمان ..</p>
+                              </div>
+                              <div class="tweeter-img">
+                                <!-- <img src="images/post3.jpg"> -->
+                            </div>
+                               <!-- end post content -->
+                               <div class="tweet-icons" >
+                                  <button class="post-icon comment-icon" title="add comment">
+                                     <i class="fa-solid fa-message"></i>
+                                     <span>2</span>
+                                  </button>
+                                  <a href=""class="post-icon" title="share">
+                                     <i class="fa-solid fa-retweet"></i>   
+                                  </a>
+                                  <a href=""class="post-icon" title="love">
+                                     <i class="fa-solid fa-heart"></i>
+                                  </a>
+             
+                               </div>
+    
+                            </div>
+    
+                            <div class="posts-comments">
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mahmoud Abdelrazek</span>
+                                        <small>@7hod_.h</small>
+                                        <small>18 may 2024</small>
+                                        <small class="job-title">student</small>
+                                    </div>
+                                    <p> Wow😁 this a greet work 👌😍. </p>
+                                    <div class="comment-footer">
+                                        <small class="response-btn">
+                                            <i class="fa-solid fa-reply"></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-up"></i></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-down"></i></i>
+                                        </small>
+                                    </div>
+                                </div>
+    
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mohamed Refaat</span>
+                                        <small>mo_r3faat</small>
+                                    </div>
+                                    <p> Nice , this is a greet work </p>
+                                </div>
+    
+                                <div class="commentIntput" title="comment this">
+                                    <input type="text" placeholder="comment here">
+                                   <button class="comment-now">
+                                      <i class=" fa-solid fa-circle-arrow-up"></i>
+                                   </button>
+                              </div>
+    
+                            </div>
+    
+                         </div>
+
+                         <div class="feed-tweet">
+                            <div class="img">
+                              <img src="images/user6.jpg">
+                            </div>
+             
+                            <div class="feed-tweeter-details">
+                               <div class="tweeter-details">
+                                  <a href="" class="tweeter-name">Ahmed Gamal  
+                                     <span class="tweeter-handel">@jimmy_</span>
+                                     <small class="date">30 may 2024</small>
+                                     <small class="job-title">student</small>
+                                  </a>
+                                  <a href="" class="post-icon">
+                                     <i class="fa-solid fa-ellipsis"></i>
+                                  </a>
+                               </div>
+             
+                               <!-- start post content -->
+                               <div class="tweeter-text" dir="rtl">
+                                <p>ازيكم ي شباب .. انشاء الله انهارده هشارك معاكم يعني ايه Binary Search واهم التطبيقات كمان ..</p>
+                              </div>
+                              <div class="tweeter-img">
+                                <!-- <img src="images/post3.jpg"> -->
+                            </div>
+                               <!-- end post content -->
+                               <div class="tweet-icons" >
+                                  <button class="post-icon comment-icon" title="add comment">
+                                     <i class="fa-solid fa-message"></i>
+                                     <span>2</span>
+                                  </button>
+                                  <a href=""class="post-icon" title="share">
+                                     <i class="fa-solid fa-retweet"></i>   
+                                  </a>
+                                  <a href=""class="post-icon" title="love">
+                                     <i class="fa-solid fa-heart"></i>
+                                  </a>
+             
+                               </div>
+    
+                            </div>
+    
+                            <div class="posts-comments">
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mahmoud Abdelrazek</span>
+                                        <small>@7hod_.h</small>
+                                        <small>18 may 2024</small>
+                                        <small class="job-title">student</small>
+                                    </div>
+                                    <p> Wow😁 this a greet work 👌😍. </p>
+                                    <div class="comment-footer">
+                                        <small class="response-btn">
+                                            <i class="fa-solid fa-reply"></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-up"></i></i>
+                                        </small>
+                                        <small class="response-btn">
+                                            <i class="fa-regular fa-thumbs-down"></i></i>
+                                        </small>
+                                    </div>
+                                </div>
+    
+                                <div class="comment">
+                                    <div class="comment-header">
+                                        <img src="images/obj2.jpg" width="30px" alt="">
+                                        <span>Mohamed Refaat</span>
+                                        <small>mo_r3faat</small>
+                                    </div>
+                                    <p> Nice , this is a greet work </p>
+                                </div>
+    
+                                <div class="commentIntput" title="comment this">
+                                    <input type="text" placeholder="comment here">
+                                   <button class="comment-now">
+                                      <i class=" fa-solid fa-circle-arrow-up"></i>
+                                   </button>
+                              </div>
+    
+                            </div>
+    
+                         </div>
+
+                         <button class="tweet-btn see-less">see less</button>
+                     </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="after-overlay blur-overlay">
+            <div class="input-code-in-overLay">
+                
+            </div>
+        </div>
+    </main>
+
+ <!-- ======================== Start Main Structre ========================= -->
+
+  <!-- Code snippet with appropriate language class -->
+  <!-- <div class="code-container"> -->
+ 
+        
+      <!-- </div> -->
+  
+<!-- <img src="" alt=""> -->
+<!-- Include Prism.js script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
